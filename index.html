@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f4f1e9" />
+    <meta
+      name="description"
+      content="闫雨昊（Yuhao Yan）的个人主页：AI × Quant Research、LLM 预训练、具身智能、机器人与应用开发。"
+    />
+    <meta property="og:title" content="闫雨昊 · Yuhao Yan" />
+    <meta
+      property="og:description"
+      content="AI × Quant Research · 从数据、模型与实验走到可审计结论。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yuhaoyan04.github.io/" />
+    <meta property="og:image" content="https://yuhaoyan04.github.io/images/1.jpg" />
+    <title>闫雨昊 · Yuhao Yan | AI × Quant Research</title>
+    <link rel="icon" href="images/favicon.ico" />
+    <link rel="manifest" href="images/site.webmanifest" />
+    <link rel="stylesheet" href="assets/css/site.css" />
+    <script src="assets/js/site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到正文</a>
+
+    <header class="site-header" data-header>
+      <div class="nav-shell">
+        <a class="brand" href="#top" aria-label="返回首页">
+          <span class="brand-mark">YY</span>
+          <span class="brand-copy">
+            <strong>闫雨昊</strong>
+            <small>AI × Quant Research</small>
+          </span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span></span><span></span><span></span>
+          <span class="sr-only">打开导航</span>
+        </button>
+
+        <nav id="site-nav" class="site-nav" aria-label="主导航">
+          <a href="#about">关于</a>
+          <a href="#projects">项目</a>
+          <a href="#experience">经历</a>
+          <a href="#honors">荣誉</a>
+          <a href="#contact">联系</a>
+          <a class="nav-cv" href="assets/Yuhao_Yan_Resume.pdf" target="_blank" rel="noreferrer">简历 ↗</a>
+          <button class="theme-toggle" type="button" aria-label="切换明暗主题" title="切换明暗主题">
+            <span class="theme-icon" aria-hidden="true">◐</span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="top" class="hero section-shell">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span> Zhejiang University · Hangzhou</p>
+          <h1>
+            从模型训练走到
+            <em>可审计的研究结论</em>
+          </h1>
+          <p class="hero-lead">
+            我是闫雨昊，一名具有微电子与计算机交叉背景的研究者。目前就读于浙江大学计算机科学与技术学院，关注
+            <strong>AI × Quant Research</strong>、基础模型训练与智能系统。
+          </p>
+          <p class="hero-note">
+            我喜欢把开放问题拆成数据、建模、实验和审计链路，并主动追问：结果是否泄漏？是否能复现？成本和边界在哪里？
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">查看项目 <span>↓</span></a>
+            <a class="button button-secondary" href="assets/Yuhao_Yan_Resume.pdf" target="_blank" rel="noreferrer">下载简历 <span>↗</span></a>
+            <a class="text-link" href="https://github.com/yuhaoyan04" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+          </div>
+        </div>
+
+        <aside class="hero-profile reveal" aria-label="个人概览">
+          <div class="portrait-wrap">
+            <div class="portrait-halo"></div>
+            <img src="images/1.jpg" alt="闫雨昊的个人照片" width="420" height="520" />
+            <span class="availability"><i></i> Open to AI + Quant internships</span>
+          </div>
+          <div class="profile-meta">
+            <div>
+              <small>Current</small>
+              <strong>浙江大学 · 计算机硕士</strong>
+            </div>
+            <div>
+              <small>Background</small>
+              <strong>中山大学 · 微电子本科</strong>
+            </div>
+          </div>
+        </aside>
+
+        <div class="hero-metrics reveal" aria-label="研究数据概览">
+          <article>
+            <strong>20<span>年+</span></strong>
+            <p>A 股点时研究数据</p>
+          </article>
+          <article>
+            <strong>1B</strong>
+            <p>参数模型端到端预训练</p>
+          </article>
+          <article>
+            <strong>5,000<span>+</span></strong>
+            <p>多模态导航任务</p>
+          </article>
+          <article>
+            <strong>16</strong>
+            <p>奖学金与竞赛荣誉</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="section section-tinted">
+        <div class="section-shell about-grid">
+          <div class="section-heading reveal">
+            <p class="section-index">01 · ABOUT</p>
+            <h2>研究不是一条漂亮曲线，<br />而是一条完整证据链。</h2>
+          </div>
+          <div class="about-copy reveal">
+            <p class="large-copy">
+              我的经历横跨硬件系统、具身智能、LLM 训练和量化研究。不同主题背后的共同方法，是把模糊目标转化为可以验证、比较和复现的实验。
+            </p>
+            <div class="principles">
+              <article>
+                <span>01</span>
+                <div><h3>Point-in-time</h3><p>尊重信息发生的时间，先消除泄漏，再讨论模型效果。</p></div>
+              </article>
+              <article>
+                <span>02</span>
+                <div><h3>End-to-end</h3><p>愿意从数据处理、训练、部署一路走到结果解释与文档。</p></div>
+              </article>
+              <article>
+                <span>03</span>
+                <div><h3>Evidence first</h3><p>善用 AI 工具提高效率，但最终以代码、测试和实验结果作答。</p></div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-shell">
+          <div class="section-heading section-heading-row reveal">
+            <div>
+              <p class="section-index">02 · SELECTED WORK</p>
+              <h2>精选项目</h2>
+            </div>
+            <p>可访问仓库与当前最能代表研究方法的工作。</p>
+          </div>
+
+          <div class="featured-project quant-project reveal">
+            <div class="project-copy">
+              <div class="project-kicker"><span>FEATURED · QUANT</span><time>2026 — NOW</time></div>
+              <h3>A 股点时多因子与机器学习选股研究</h3>
+              <p>
+                从历史证券快照、可执行标签和 15 个因子出发，完成 purged walk-forward、Ridge/HGB 排序、Top-200
+                缓冲组合，以及成本、规模、涨跌停和 ADV 容量审计。
+              </p>
+              <ul class="metric-list">
+                <li><strong>19.9%</strong><span>Ridge 20bp 后年化</span></li>
+                <li><strong>291</strong><span>共同历史样本外周</span></li>
+                <li><strong>47</strong><span>研究产物审计项</span></li>
+              </ul>
+              <p class="project-finding">
+                <span>Finding</span> Ridge 相对 CSI 500 超额的块 bootstrap 区间高于零；HGB-Ridge 收益更高，但增量区间跨零，因此不宣称显著胜出。
+              </p>
+              <div class="tag-row"><span>Python</span><span>Point-in-time</span><span>Walk-forward</span><span>Bootstrap</span></div>
+              <a class="project-link" href="https://github.com/yuhaoyan04/ai-quant-research" target="_blank" rel="noreferrer">查看研究仓库 <span>↗</span></a>
+            </div>
+            <div class="project-visual chart-card">
+              <div class="visual-header"><span>Historical OOS</span><small>2021–2026</small></div>
+              <img src="assets/images/quant-equity.svg" alt="A 股量化研究历史样本外累计净值图" loading="lazy" />
+              <div class="chart-caption"><span><i class="blue"></i>Ridge</span><span><i class="orange"></i>HGB + Ridge</span><span><i class="gray"></i>CSI 500</span></div>
+            </div>
+          </div>
+
+          <div class="featured-grid">
+            <article class="project-card project-card-dark reveal">
+              <div class="project-kicker"><span>LLM SYSTEMS</span><time>2026 — NOW</time></div>
+              <div class="project-monogram">1B</div>
+              <h3>LLM From Scratch</h3>
+              <p>在 8×24GB RTX 3090 节点上，以 LLaMA Decoder-only 与 ZeRO Stage 3 完成约 1B 参数、1B token 的端到端预训练。</p>
+              <ul class="clean-list">
+                <li>流式数据处理、精确/模糊去重与二进制分片</li>
+                <li>Tokenizer、定长样本打包与可恢复训练</li>
+                <li>训练周期约一周</li>
+              </ul>
+              <div class="card-footer">
+                <a href="https://github.com/yuhaoyan04/LLM" target="_blank" rel="noreferrer">LLM 仓库 ↗</a>
+                <a href="https://github.com/yuhaoyan04/YuFormer" target="_blank" rel="noreferrer">YuFormer ↗</a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <div class="project-kicker"><span>ANDROID · PRODUCT</span><time>2026</time></div>
+              <div class="app-icon" aria-hidden="true"><span>¥</span></div>
+              <h3>MoneyTracker 智能账本</h3>
+              <p>自动解析支付通知与银行短信，使用五层自进化分类引擎完成本地消费分类，并支持预算、统计、备份和深色模式。</p>
+              <div class="tag-row"><span>Kotlin</span><span>MVVM</span><span>Room</span><span>WorkManager</span></div>
+              <div class="card-footer">
+                <a href="https://github.com/yuhaoyan04/MoneyTracker" target="_blank" rel="noreferrer">项目仓库 ↗</a>
+                <a href="https://github.com/yuhaoyan04/MoneyTracker/releases" target="_blank" rel="noreferrer">下载 APK ↗</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="all-projects-heading reveal">
+            <h3>全部项目与研究实践</h3>
+            <p>公开代码、在研复现与跨学科工程项目。</p>
+          </div>
+
+          <div class="project-grid">
+            <article class="mini-project reveal">
+              <div class="mini-icon">YF</div>
+              <p class="mini-type">LLM RESEARCH · IN PROGRESS</p>
+              <h3>YuFormer</h3>
+              <p>面向完整 LLM 研究流程的个人研究项目，覆盖数据、Tokenizer、模型架构、预训练、SFT 与 RL；当前推进预训练和 scaling 实验。</p>
+              <a href="https://github.com/yuhaoyan04/YuFormer" target="_blank" rel="noreferrer">GitHub ↗</a>
+            </article>
+            <article class="mini-project reveal">
+              <div class="mini-icon">OG</div>
+              <p class="mini-type">EMBODIED AI · LEAD</p>
+              <h3>多模态具身导航</h3>
+              <p>基于 OmniGibson 与 Isaac Sim 搭建类 Gym 环境，生成 5,000+ 导航任务与参考轨迹，实现融合文本、图像、声音和状态的 PPO 训练框架。</p>
+              <span class="status-label">Research project</span>
+            </article>
+            <article class="mini-project reveal">
+              <div class="mini-icon">RL</div>
+              <p class="mini-type">ROBOTICS · IN PROGRESS</p>
+              <h3>Microduck 双足机器人复现</h3>
+              <p>参与开源双足机器人复现，负责运动策略模型训练、推理调用和配套软件开发，推进训练—推理—控制链路联调。</p>
+              <span class="status-label">Model training + software</span>
+            </article>
+            <article class="mini-project reveal">
+              <div class="mini-icon">CV</div>
+              <p class="mini-type">EDGE AI · LEAD</p>
+              <h3>激光除蟑螂系统</h3>
+              <p>训练 mAP&gt;0.9 的检测模型并部署到 Raspberry Pi 5；结合 ESP32、电机、激光与闭环 PID，实现 10+ FPS 和 5mm 级定位。</p>
+              <span class="status-label">Vision + embedded control</span>
+            </article>
+            <article class="mini-project reveal">
+              <div class="mini-icon">見</div>
+              <p class="mini-type">KNOWLEDGE SYSTEM · OPEN SOURCE</p>
+              <h3>見微 / Jianwei</h3>
+              <p>基于 Astro + MDX 的内容优先知识实验室，支持数学公式、三级内容模型、多主题与字体切换，并部署于 Cloudflare Pages。</p>
+              <div class="mini-links"><a href="https://github.com/yuhaoyan04/jianwei" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://jianwei-lab.pages.dev" target="_blank" rel="noreferrer">Live ↗</a></div>
+            </article>
+            <article class="mini-project reveal">
+              <div class="mini-icon">AI</div>
+              <p class="mini-type">CREATIVE WORKFLOW</p>
+              <h3>AI 视频与音乐工作流</h3>
+              <p>搭建 AI 视频短剧创作与音乐二创工作流，组合多种生成式工具完成从创意到内容生产的工程化流程。</p>
+              <span class="status-label">Creative engineering</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section section-tinted">
+        <div class="section-shell">
+          <div class="section-heading section-heading-row reveal">
+            <div><p class="section-index">03 · EXPERIENCE</p><h2>经历与教育</h2></div>
+            <p>研究兴趣由硬件系统逐步延伸到模型训练、具身智能与量化研究。</p>
+          </div>
+          <div class="timeline-grid">
+            <article class="timeline-card reveal">
+              <p class="timeline-label">RESEARCH INTERNSHIP</p>
+              <div class="timeline-title"><div><h3>华为技术有限公司</h3><p>终端 AI Lab · 研究实习生</p></div><time>2026.05 — 2026.08</time></div>
+              <ul>
+                <li>围绕 JEPA 路线世界模型研究，引入 SIGREG 正则抑制表征塌缩。</li>
+                <li>量化 next-latent prediction 下的多步 rollout 误差传播。</li>
+                <li>构建离散/连续动作环境，研究跨环境动力学泛化、in-context learning 与 scaling。</li>
+              </ul>
+            </article>
+            <div class="education-stack">
+              <article class="education-card reveal">
+                <time>2026 — 2029</time><p class="timeline-label">MASTER</p>
+                <h3>浙江大学</h3><p>计算机科学与技术学院 · 硕士</p>
+              </article>
+              <article class="education-card reveal">
+                <time>2022 — 2026</time><p class="timeline-label">BACHELOR</p>
+                <h3>中山大学</h3><p>微电子科学与工程 · 专业排名 8/104</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="honors" class="section">
+        <div class="section-shell">
+          <div class="section-heading section-heading-row reveal">
+            <div><p class="section-index">04 · HONORS</p><h2>奖项与荣誉</h2></div>
+            <p>16 项奖学金与竞赛荣誉，完整保留而不合并隐藏。</p>
+          </div>
+          <div class="honors-grid">
+            <div class="honor-column reveal">
+              <h3><span>01</span> 奖学金与综合荣誉</h3>
+              <ol class="honor-list">
+                <li><time>2022–2023</time><div><strong>国家奖学金</strong><small>National Scholarship</small></div></li>
+                <li><time>2022–2023</time><div><strong>中山大学一等奖学金</strong><small>First-Class Scholarship</small></div></li>
+                <li><time>2023–2024</time><div><strong>华为奖学金</strong><small>Huawei Scholarship</small></div></li>
+                <li><time>2023–2024</time><div><strong>中山大学二等奖学金</strong><small>Second-Class Scholarship</small></div></li>
+                <li><time>2023–2024</time><div><strong>学科竞赛与科研专项奖学金</strong><small>Academic Competition & Research</small></div></li>
+                <li><time>2024–2025</time><div><strong>中山大学一等奖学金</strong><small>First-Class Scholarship</small></div></li>
+                <li><time>2024–2025</time><div><strong>学科竞赛与科研专项奖学金</strong><small>Academic Competition & Research</small></div></li>
+                <li><time>2024–2025</time><div><strong>中山大学荣芳捐赠奖学金</strong><small>Rongfang Scholarship</small></div></li>
+              </ol>
+            </div>
+            <div class="honor-column reveal">
+              <h3><span>02</span> 竞赛奖项</h3>
+              <ol class="honor-list competition-list">
+                <li><b>全国一等奖</b><div><strong>全国大学生集成电路创新创业大赛</strong><small>China College IC Competition</small></div></li>
+                <li><b>Finalist</b><div><strong>美国大学生数学建模竞赛</strong><small>COMAP MCM/ICM</small></div></li>
+                <li><b>全国二等奖</b><div><strong>全球校园人工智能算法精英赛</strong><small>Global Campus AI Algorithm Elite Competition</small></div></li>
+                <li><b>全国二等奖</b><div><strong>传智杯人工智能创新应用大赛</strong><small>ChuanZhi Cup</small></div></li>
+                <li><b>全国三等奖</b><div><strong>第八届全国大学生集成电路创新创业大赛</strong><small>National Finals</small></div></li>
+                <li><b>华南二等奖</b><div><strong>中国高校计算机大赛（C4）</strong><small>AI Innovation Application Track</small></div></li>
+                <li><b>三等奖</b><div><strong>AI for Science 大湾区科技竞赛</strong><small>AI4SC</small></div></li>
+                <li><b>华南二等奖</b><div><strong>全国大学生计算机能力挑战赛</strong><small>China University Computer Ability Challenge</small></div></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="section-shell contact-grid">
+          <div class="reveal">
+            <p class="section-index">05 · CONTACT</p>
+            <h2>一起讨论一个值得验证的问题。</h2>
+            <p>如果你正在做量化研究、基础模型训练或智能系统，欢迎联系我交流研究与实习机会。</p>
+          </div>
+          <div class="contact-actions reveal">
+            <a href="mailto:YANYUHAO0526@outlook.com"><small>Email</small><strong>YANYUHAO0526@outlook.com</strong><span>↗</span></a>
+            <a href="https://github.com/yuhaoyan04" target="_blank" rel="noreferrer"><small>GitHub</small><strong>@yuhaoyan04</strong><span>↗</span></a>
+            <a href="assets/Yuhao_Yan_Resume.pdf" target="_blank" rel="noreferrer"><small>Resume</small><strong>查看最新简历</strong><span>↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="section-shell">
+        <p>© 2026 Yuhao Yan · Built as a living research portfolio.</p>
+        <a href="#top">回到顶部 ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>

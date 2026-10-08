@@ -1,3 +1,7 @@
 _site/
 push.sh
 .DS_Store
+*-preview.png
+*-hero.png
+/*-review.png
+/mobile-hero-*.png
