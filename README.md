@@ -8,7 +8,7 @@ Source for [yuhaoyan04.github.io](https://yuhaoyan04.github.io/), a bilingual re
 - Android and knowledge-system development;
 - internships, education, and honors.
 
-The site is a dependency-free static page with responsive layouts, light/dark themes, accessible navigation, and no third-party runtime assets.
+The site is a dependency-free static academic homepage with a responsive layout, accessible navigation, and no third-party runtime assets or animation scripts.
 
 ## Local preview
 
