@@ -63,20 +63,20 @@
         <div class="section-content project-list">
           <article class="project-item featured-project">
             <div class="item-heading">
-              <h3>A 股点时多因子与机器学习选股研究</h3>
+              <h3>A 股点时多因子、模型比较与执行审计</h3>
               <span>2026 — 至今</span>
             </div>
-            <p class="project-role">独立研究 · Python / Point-in-time / Walk-forward / Bootstrap</p>
+            <p class="project-role">独立研究 · Python / PIT / Purged walk-forward / Execution audit</p>
             <ul>
-              <li>构建历史证券快照、可执行标签和 15 个因子，采用 purged walk-forward 完成 Ridge 与 HGB 排序研究。</li>
-              <li>实现 Top-200 缓冲组合，并对交易成本、规模暴露、涨跌停约束及 ADV 容量进行审计。</li>
-              <li>共同历史样本外区间覆盖 291 周；Ridge 在 20bp 成本后年化收益约 19.9%。</li>
-              <li>块 bootstrap 显示 Ridge 相对 CSI 500 的超额区间高于零；HGB-Ridge 增量区间跨零，因此不宣称显著胜出。</li>
+              <li>构建覆盖 2006–2026 年、5,521 只历史股票和约 1,479 万行特征的点时研究管线，以证券快照、信息可用日和分区审计控制幸存者偏差与前视偏差。</li>
+              <li>在同一 15 因子、5 日可执行标签和年度扩展窗口下比较 Naive、OLS、Ridge、ElasticNet、RandomForest 与 HGB；模型只按验证集选择，并用块 bootstrap 检验增量。</li>
+              <li>因 RF 初始组合收益异常偏高，进一步定位节假日短周持有期重叠及次日停牌/涨跌停完整成交偏差，并重写非重叠日频股数订单与失败订单重试引擎。</li>
+              <li>修正后 RF 在 2021–2026 historical OOS、20bp 成本下年化 21.6%、Sharpe 0.87、最大回撤 -43.3%；同时披露 Ridge 规模中性化后年化降至 16.3%、RF 局部参数稳健性未过预设门槛等负面结果。</li>
             </ul>
             <p><a href="https://github.com/yuhaoyan04/ai-quant-research" target="_blank" rel="noreferrer">代码与研究报告 →</a></p>
             <figure>
-              <img src="assets/images/quant-equity.svg" alt="A 股量化研究历史样本外累计净值曲线" loading="lazy" />
-              <figcaption>历史样本外累计净值；完整口径、限制与复现步骤见项目仓库。</figcaption>
+              <img src="assets/images/quant-execution-audit.svg" alt="RandomForest 历史样本外理想成交与执行约束累计净值对比" loading="lazy" />
+              <figcaption>2021–2026 historical OOS：同一非重叠日频时钟下的理想全成交上界与停牌/涨跌停逐日重试结果。历史回测不代表未来收益或实盘业绩。</figcaption>
             </figure>
           </article>
 
